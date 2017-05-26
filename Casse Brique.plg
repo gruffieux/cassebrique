@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Casse Brique - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Gab\LOCALS~1\Temp\RSP7F.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GR /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/Casse Brique.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Gabhome\Dev\C-C++\Modules\Source\ctileengine.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Gab\LOCALS~1\Temp\RSP7F.tmp" 
+Creating temporary file "C:\DOCUME~1\Gab\LOCALS~1\Temp\RSP80.tmp" with contents
+[
+dxguid.lib ddraw.lib dinput8.lib user32.lib gdi32.lib ole32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Casse Brique.pdb" /debug /machine:I386 /out:"Debug/Casse Brique.exe" /pdbtype:sept 
+".\Debug\canimation.obj"
+".\Debug\cclock.obj"
+".\Debug\cdisplay.obj"
+".\Debug\ceventmsg.obj"
+".\Debug\cinput.obj"
+".\Debug\citem.obj"
+".\Debug\clist.obj"
+".\Debug\cmover.obj"
+".\Debug\cobject.obj"
+".\Debug\cplayer.obj"
+".\Debug\csound.obj"
+".\Debug\csoundplayer.obj"
+".\Debug\cstr.obj"
+".\Debug\csurface.obj"
+".\Debug\ctileengine.obj"
+".\Debug\cvisual.obj"
+".\Debug\dxerror.obj"
+".\Debug\main.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\Gab\LOCALS~1\Temp\RSP80.tmp"
+<h3>Output Window</h3>
+Compiling...
+ctileengine.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Casse Brique.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
