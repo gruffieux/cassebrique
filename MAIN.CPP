@@ -317,7 +317,7 @@ void InitWindow(HINSTANCE hInst, int nCmdShow)
 	
 	//----------Création de la fenêtre----------
 
-	hWndMain = CreateWindow(wc.lpszClassName, "Casse Brique", WS_OVERLAPPEDWINDOW, 0, 0, 1024, 768, (HWND) NULL, (HMENU) NULL, hInst, (LPVOID) NULL);
+	hWndMain = CreateWindow(wc.lpszClassName, "Casse Brique", WS_POPUPWINDOW, 0, 0, 1024, 768, (HWND) NULL, (HMENU) NULL, hInst, (LPVOID) NULL);
 
 	if (!hWndMain)
 		ReportDxError(S_FALSE, WIN32_, ERR_CREATEWIN);
@@ -1107,10 +1107,6 @@ int WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPrevInst, LPSTR lpCmdLine, int nC
 	HMODULE ResModule;
 
 	track = -1;
-
-#ifndef _DEBUG
-	CheckUpdate();
-#endif
 
 	InitDXErrorMsg();
 	InitWindow(hInst, nCmdShow);
