@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CBRes", "CBRes\CBRes.vcproj
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameConfig", "..\GameConfig\GameConfig\GameConfig.vcproj", "{3E0776DE-F13B-4752-8272-1964C411B064}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{2E7D10C8-19DF-45F9-9CAD-791F8BCA2D52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,16 +17,19 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D8EE6AFE-F89B-408E-8C22-6A1AC4A69FC5}.Debug|Win32.ActiveCfg = Debug|Win32
 		{D8EE6AFE-F89B-408E-8C22-6A1AC4A69FC5}.Debug|Win32.Build.0 = Debug|Win32
-		{D8EE6AFE-F89B-408E-8C22-6A1AC4A69FC5}.Release|Win32.ActiveCfg = Release|Win32
-		{D8EE6AFE-F89B-408E-8C22-6A1AC4A69FC5}.Release|Win32.Build.0 = Release|Win32
+		{D8EE6AFE-F89B-408E-8C22-6A1AC4A69FC5}.Release|Win32.ActiveCfg = Debug|Win32
+		{D8EE6AFE-F89B-408E-8C22-6A1AC4A69FC5}.Release|Win32.Build.0 = Debug|Win32
 		{8A506107-71C6-4FFC-98E1-44AB3FB92FF8}.Debug|Win32.ActiveCfg = Debug|Win32
 		{8A506107-71C6-4FFC-98E1-44AB3FB92FF8}.Debug|Win32.Build.0 = Debug|Win32
-		{8A506107-71C6-4FFC-98E1-44AB3FB92FF8}.Release|Win32.ActiveCfg = Release|Win32
-		{8A506107-71C6-4FFC-98E1-44AB3FB92FF8}.Release|Win32.Build.0 = Release|Win32
+		{8A506107-71C6-4FFC-98E1-44AB3FB92FF8}.Release|Win32.ActiveCfg = Debug|Win32
+		{8A506107-71C6-4FFC-98E1-44AB3FB92FF8}.Release|Win32.Build.0 = Debug|Win32
 		{3E0776DE-F13B-4752-8272-1964C411B064}.Debug|Win32.ActiveCfg = Debug|Win32
 		{3E0776DE-F13B-4752-8272-1964C411B064}.Debug|Win32.Build.0 = Debug|Win32
-		{3E0776DE-F13B-4752-8272-1964C411B064}.Release|Win32.ActiveCfg = Release|Win32
-		{3E0776DE-F13B-4752-8272-1964C411B064}.Release|Win32.Build.0 = Release|Win32
+		{3E0776DE-F13B-4752-8272-1964C411B064}.Release|Win32.ActiveCfg = Debug|Win32
+		{3E0776DE-F13B-4752-8272-1964C411B064}.Release|Win32.Build.0 = Debug|Win32
+		{2E7D10C8-19DF-45F9-9CAD-791F8BCA2D52}.Debug|Win32.ActiveCfg = Debug
+		{2E7D10C8-19DF-45F9-9CAD-791F8BCA2D52}.Debug|Win32.Build.0 = Debug
+		{2E7D10C8-19DF-45F9-9CAD-791F8BCA2D52}.Release|Win32.ActiveCfg = Debug
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
