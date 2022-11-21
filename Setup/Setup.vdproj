@@ -188,6 +188,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
         "Release"
@@ -757,6 +765,17 @@
             "Property" = "8:ProgramMenuFolder"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_FB154286C7674BA196C4FB2E4D25D274"
+                    {
+                    "Name" = "8:Gabtek"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_DEE95EC9283046A28ED4EB1B258B5B48"
+                        "Folders"
+                        {
+                        }
+                    }
                 }
             }
             "{1525181F-901A-416C-8A58-119130FE478E}:_BDE381312AA2428CBBD4235E5BCBFCB2"
@@ -810,7 +829,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Casse Brique"
         "ProductCode" = "8:{5D787A3E-4E08-4002-9897-5FA3501F87FC}"
-        "PackageCode" = "8:{C8EA1AB6-8CBA-4C8D-8DBB-C3366EC63277}"
+        "PackageCode" = "8:{495999D5-0966-4E49-A046-B8B0A4EC0943}"
         "UpgradeCode" = "8:{443546FE-79EA-4D8A-A24B-5896C732504C}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -939,7 +958,7 @@
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
             "Target" = "8:_DB663C341BC34B919955837C3AE54052"
-            "Folder" = "8:_8E9225CB61674CF3B7DF017FF000F7D7"
+            "Folder" = "8:_FB154286C7674BA196C4FB2E4D25D274"
             "WorkingFolder" = "8:_DDD1ED7BA41545518D096F675E2F3E1A"
             "Icon" = "8:_27E474978E2F4AF0A53D0B319470B306"
             "Feature" = "8:"
@@ -967,7 +986,7 @@
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
             "Target" = "8:_986BB964004640EF983261D5CF3D77D5"
-            "Folder" = "8:_8E9225CB61674CF3B7DF017FF000F7D7"
+            "Folder" = "8:_FB154286C7674BA196C4FB2E4D25D274"
             "WorkingFolder" = "8:_DDD1ED7BA41545518D096F675E2F3E1A"
             "Icon" = "8:_7EBA65FACB4D4174A3A566305383DE34"
             "Feature" = "8:"
